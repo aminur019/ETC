@@ -1,0 +1,56 @@
+body {
+    background-image: url("../img/back_halftransparent.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #838383;
+}
+
+.img-sp {
+    width: 45%;
+    min-width: 500px;
+    position: fixed;
+    top: 45%;
+    left: calc(50% - 75px);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.contact-image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+
+
+.contact-image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.contact-image img {
+    width: auto;
+    height: auto;
+}
+.info{padding:0 0 50px 50px;}
+.info p {
+    color: #000;
+    font-size: 20px;
+    padding: 0;
+    line-height: 10px;
+}
+.info p.linkview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    line-height: 10px;
+}
+.info p a {text-decoration:none;}
